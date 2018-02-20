@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto');
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #222;
+}
+
+header {
+	background: #F22;
+	width: 100%;
+	text-align: center;
+	box-shadow: 0px 2px 8px #000;
+}
+
+section {
+	flex: 1;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	border-top: 5px solid #F22;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#logo {
+	font-family: 'Press Start 2P', cursive;
+	color: #222;
+	padding: 30px 0;
+	font-size: 2em;
+	text-shadow: 0px 2px 8px #000;
+}
+
+#bottom {
+	padding: 15px 15px 15px 0;
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+#message {
+	font-family: 'Press Start 2P', cursive;
+	color: #FFF;
+	padding: 60px;
+}
+
+#water {
+	color: #22F;
+	border: 5px solid #22F;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+#leaf {
+	color: #2F2;
+	border: 5px solid #2F2;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+#fire {
+	color: #F22;
+	border: 5px solid #F22;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.fa-heart {
+	color: #F22;
+}
+
+.container {
+	width: 66%;
+	display: flex;
+	flex-direction: column;
+}
+
+.healthBars {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Press Start 2P', cursive;
+	color: #FFF;
+	margin: 20px 0;
+}
+
+.textOutput {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.attacks {
+	flex: 2;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #2F2F2F;
+	border-left: 5px solid #F22;
+	border-top: 5px solid #F22;
+	border-right: 5px solid #F22;
+}
+
+.attack:hover {
+	transform: translateY(-4px);
+	box-shadow: 0px 4px 8px #000;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.attack:active {
+	transform: translateY(0px);
+	box-shadow: 0px 2px 8px #000;
+	transition: 0.1s;
+}
