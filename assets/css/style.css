@@ -24,7 +24,8 @@ section {
 }
 
 footer {
-	border-top: 5px solid #F22;
+	/*border-top: 5px solid #F22;*/
+	background-color: #F22;
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
@@ -41,14 +42,17 @@ footer {
 
 #bottom {
 	padding: 15px 15px 15px 0;
-	color: #FFF;
+	color: #222;
 	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 }
 
 #message {
 	font-family: 'Press Start 2P', cursive;
 	color: #FFF;
 	padding: 60px;
+	text-align: center;
+	line-height: 2em;
 }
 
 #water {
@@ -117,7 +121,7 @@ footer {
 	cursor: pointer;
 }
 
-.attack:active {
+.attack:active, .attack:focus {
 	transform: translateY(0px);
 	box-shadow: 0px 2px 8px #000;
 	transition: 0.1s;

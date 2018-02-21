@@ -10,6 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!-- FONT AWESOME ICONS -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<!-- JQUERY CDN -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<header>
@@ -18,11 +20,11 @@
 	<section>
 		<div class="container">
 			<div class="healthBars">
-				<h2 id="playerHealth">PLAYER: <i class="fas fa-heart fa-2x"></i> <i class="fas fa-heart fa-2x"></i> <i class="fas fa-heart fa-2x"></i></h2>
-				<h2 id="enemyHealth">ENEMY: <i class="fas fa-heart fa-2x"></i> <i class="fas fa-heart fa-2x"></i> <i class="fas fa-heart fa-2x"></i></h2>
+				<h2 id="playerHealth">PLAYER: <i class="fas fa-heart fa-2x playerHeart"></i> <i class="fas fa-heart fa-2x playerHeart"></i> <i class="fas fa-heart fa-2x playerHeart"></i></h2>
+				<h2 id="enemyHealth">ENEMY: <i class="fas fa-heart fa-2x enemyHeart"></i> <i class="fas fa-heart fa-2x enemyHeart"></i> <i class="fas fa-heart fa-2x enemyHeart"></i></h2>
 			</div>
 			<div class="textOutput">
-				<h2 id="message">Hello.</h2>
+				<h2 id="message"></h2>
 			</div>
 			<div class="attacks">
 				<i id="water" class="fas fa-tint fa-9x attack"></i>
@@ -34,5 +36,7 @@
 	<footer>
 		<h3 id="bottom">Designed & Coded by Aarick-F</h3>
 	</footer>
+	<!-- MY SCRIPT -->
+	<script type="text/javascript" src="assets/js/myScript.js"></script>
 </body>
 </html>
